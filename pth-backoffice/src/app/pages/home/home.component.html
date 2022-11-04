@@ -1,26 +1,26 @@
 <div class="">
-    <div>
-        <h5 class="font-medium text-3xl">Hello User</h5>
-        <p class=" text-gray-500">Let's crush today!</p>
-    </div>
-    <div class=" mt-6">
-        <h5 class="font-medium text-xl">Today's workout</h5>
-        <div class="mt-4">
-            <div *ngFor="let exercise of exercises"
-                class="bg-pink-300 p-4 rounded-md
-                my-4 shadow-md flex align-middle justify-between">
-                <div>
-                    <h5>
-                        {{ exercise.name }}
-                    </h5>
-                    <p>
-                        {{ exercise.description }}
-                    </p>
-                </div>
-                <div>
-                    >
-                </div>
-            </div>
+  <div>
+    <h5 class="font-medium text-3xl">Hello User</h5>
+    <p class=" text-gray-500">Let's crush today!</p>
+  </div>
+  <div class=" mt-6">
+    <h5 class="font-medium text-xl">Today's workout</h5>
+    <div *ngIf="todaysWorkout" class="mt-4">
+      <div class="bg-gradient-to-tr from-gray-900 to-gray-200 rounded-xl shadow-lg
+        p-5">
+        <h1 class="text-2xl text-white font-bold">
+          {{ todaysWorkout.title }}
+        </h1>
+        <div class="py-2 flex justify-between mt-2">
+          <div>
+            <p class="text-sm font-medium text-white">5 Exercices</p>
+            <p class="text-sm font-medium text-white">60 mins</p>
+          </div>
+          <button class="px-4 py-2 rounded-lg bg-blue-400 text-white text-lg font-medium" routerLink="workout">
+            Start
+          </button>
         </div>
+      </div>
     </div>
+  </div>
 </div>
