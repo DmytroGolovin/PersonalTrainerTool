@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1082480107918",
+    "project_id": "personaltrainerhelper-88108",
+    "storage_bucket": "personaltrainerhelper-88108.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082480107918:android:6069e504b0f5682b4d04df",
+        "android_client_info": {
+          "package_name": "com.example.pth_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082480107918-kvvou8i2n8b355gfvk5fohb8bp7konke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdxtzPdZUim0p_rQuEVb3DsgBI99kHav8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1082480107918-kvvou8i2n8b355gfvk5fohb8bp7konke.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
